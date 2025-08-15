@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "syaif",
+  "password": "syaif",
+  "name": "syaif"
+}
+
+### Login
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "syaif",
+  "password": "syaif"
+}
+
+### Say Hello
+GET http://localhost:3000/api/hello
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVrbyIsImlhdCI6MTc1Mzg4MjY5MywiZXhwIjoxNzUzOTY5MDkzfQ.eh8rrt5VjGUCuIGuYSF0PcIUGSAcb5yaQZDTG_o0TGs
